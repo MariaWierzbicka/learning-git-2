@@ -1,6 +1,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+body {
+  background-color: #f4efe6;
+}
 .container {
   position: absolute;
   /* max-width: 60%; */
@@ -17,6 +20,7 @@ h1 {
   font-size: 40px;
   font-weight: bold;
   margin: 0;
+  text-shadow: 1px 1px 2px grey;
 }
 h2 {
   font-size: 20px;
